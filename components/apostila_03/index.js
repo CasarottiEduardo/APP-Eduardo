@@ -1,35 +1,20 @@
-// import * as React from 'react';
-// import { TouchableOpacity } from 'react-native';
-// import { View, Text } from 'react-native';
+import { Text, View , TouchableOpacity } from 'react-native';
 
-// export default function Apostila03() {
-//     return(
-//         <View style={styles.container}>
-//             <Text style={styles.paragraph}>
-//                 Exmplo 3
-//             </Text>
+import styles from './styles';
 
-//             <TouchableOpacity
-//                 onPress={() => alert ('Ola mundo!!!') }
-//                 style={styles.button}
-//             > 
+export default function apostila03() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.paragraph}>Exemplo apostila 3</Text>
 
-//                 <text style={styles.textbutton}>
-//                   Ola mundo!!!
-//                 </text>   
-//             </TouchableOpacity>
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={ () => alert('BATERIA FRACA')}
+      >
+        <Text style={styles.textButton}>Hello World!!</Text>
+      </TouchableOpacity>
+    
+    </View>
 
-//         </View>
-//     );
-// }
-
-import { Text, View } from "react-native";
-import styles from "./style";
-
-export default function apostila_03()   {
-    return (
-        <View style={styles.container}>
-            <Text>Exemlo apostila 03</Text>
-        </View>
-    );
+  );
 }

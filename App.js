@@ -1,10 +1,16 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet } from "react-native";
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native'; 
 
 import Apostila03 from './components/apostila_03/index';
 
-ec
-
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Apostila03 />
+      <StatusBar style="auto" />
+    </View>
+  );
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -14,14 +20,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-
-// const styles = StyleSheet.create ({
-//   container :{
-//     flex: 1,
-//     justifyContent: 'center',
-//     paddingTop: Constants.statusBarHeight,
-//     backgroundColor: '#9e9e9e',
-//     padding: 8,
-//   },
-// });
