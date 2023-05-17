@@ -29,14 +29,14 @@ export default function apostila03() {
         style={styles.button}
         onPress={ () => AddNumber()}
       >
-        <Text style={styles.textButton}>Somar +1</Text>
+        <Text style={styles.textButton}> +1</Text>
       </TouchableOpacity>
 
       <TouchableOpacity 
         style={styles.button}
         onPress={ () => subNumber()}
       >
-        <Text style={styles.textButton}>Subtrair -1</Text>
+        <Text style={styles.textButton}> -1</Text>
       </TouchableOpacity>
 
       <TouchableOpacity 
