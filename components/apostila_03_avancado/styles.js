@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#9E9E9E', 
     height: 70,     
-    justifyContent: 'center',     
+    justifyContent: 'center',   
+    alignItems: 'center',  
   }, 
   textButton: {
     fontSize: 50, 
@@ -50,6 +51,7 @@ const styles = StyleSheet.create({
   botaoSinal: {
     width: 80, 
     marginHorizontal: 27 
+
   }
 });
 

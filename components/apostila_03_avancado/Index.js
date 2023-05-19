@@ -20,7 +20,7 @@ export default function Apostila03A() {
   }
 
   function zerNumber() {
-    setContador(contador - contador);
+    setContador(0);
     console.log(contador);
   }
 
