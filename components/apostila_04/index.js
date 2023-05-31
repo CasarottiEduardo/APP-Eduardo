@@ -1,18 +1,14 @@
-import React, {useState} from "react";
-import { Text, TouchableOpacity, View } from 'react-native';
-// import styles from "../apostila_03/styles";
+import React, { useState } from 'react';
+import { View, Text } from 'react-native';
+import styles from './styles'
 
-import styles from "./styles";
-function apostila04(){
-
-    return(
-        <View style={styles.container}>
-
-            <Text>Exemplo 04</Text>     
-
-        </View>
-    );
-
-};
-
-export default apostila04;
+function Apostila04(){
+      return(
+            
+            <View style={styles.container}>
+                  <Text style={styles.texto}>Exemplo 4</Text>               
+            </View>
+            
+      );
+}
+export default Apostila04;
