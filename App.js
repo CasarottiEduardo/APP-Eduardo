@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-
+import  Constants  from "expo-constants";
 import Apostila03 from "./components/apostila_03/index";
 import Apostila03a from "./components/apostila_03_avancado/index";
 import Apostila04 from "./components/apostila_04/index";
@@ -19,5 +19,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     //alignItems: 'center',
     justifyContent: "center",
+    paddingTop: Constants.statusBarHeight,
   },
 });
