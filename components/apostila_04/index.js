@@ -3,14 +3,14 @@ import { View, Text, TextInput, TouchableOpacity } from "react-native";
 import styles from "./styles";
 
 function Apostila04() {
-  const [entrada, setEntrada] = useState("");
-  const [mensagem, setMensagem] = useState("Aqui aparece o texto digitador");
- 
+  const [nome, setNome] = useState("Nome");
+  const [mensagem, setMensagem] = useState("Aqui aparece o texto digitado");
+  const [sobreNome, setSobreNome] = useState("Sobrenome");
 
-  function apresentaMensagen(){
-      setMensagem(entrada)
-      setEntrada('');
-
+  function apresentaMensagem() {
+    setMensagem(`${nome} ${sobreNome}`);
+    setNome("");
+    setSobreNome("");
   }
 
   return (
@@ -18,19 +18,28 @@ function Apostila04() {
       <Text style={styles.texto}>Exemplo 4</Text>
 
       <Text style={styles.txtSaida}>{mensagem}</Text>
+      
       <TextInput
         style={styles.txtEntrada}
-        onChangeText={(inputEntrada) => setEntrada(inputEntrada)}
-        value={entrada}
+        onChangeText={(inputNome) => setNome(inputNome)}
+        value={nome}
+      />
+
+      <TextInput
+        style={styles.txtEntrada}
+        onChangeText={(inputSobreNome) => setSobreNome(inputSobreNome)}
+        value={sobreNome}
       />
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => apresentaMensagen()}
+        onPress={() => apresentaMensagem()}
       >
         <Text style={styles.textButton}>Mostrar valor digitado</Text>
       </TouchableOpacity>
     </View>
   );
 }
+
 export default Apostila04;
+
