@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#ffcdd2",
-    //width: '100%'
+    width: '100%'
   },
   texto: {
     fontSize: 26,
@@ -45,12 +45,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   nomes: {
-    position: 'relative',
-    alignItems: 'left',
+    alignSelf: "flex-start",
+    marginLeft: 60,
+    fontFamily: 'sans-serif'
   },
-
-
-
+  
 });
 
 export default styles;
