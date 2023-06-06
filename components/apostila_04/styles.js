@@ -44,6 +44,13 @@ const styles = StyleSheet.create({
     color: "#FFCDD2",
     textAlign: "center",
   },
+  // nomes: {
+  //   justifyContent: "center",
+  //   alignContent: "left",
+  // },
+
+
+
 });
 
 export default styles;

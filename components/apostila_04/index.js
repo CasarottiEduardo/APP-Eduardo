@@ -19,11 +19,15 @@ function Apostila04() {
 
       <Text style={styles.txtSaida}>{mensagem}</Text>
       
+      <Text style={styles.nomes}>Nome:</Text>
+
       <TextInput
         style={styles.txtEntrada}
         onChangeText={(inputNome) => setNome(inputNome)}
         value={nome}
       />
+
+      <Text style={styles.nomes}>Sobrenome:</Text>
 
       <TextInput
         style={styles.txtEntrada}
