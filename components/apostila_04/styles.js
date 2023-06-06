@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
     color: "#FFCDD2",
     textAlign: "center",
   },
-  // nomes: {
-  //   justifyContent: "center",
-  //   alignContent: "left",
-  // },
+  nomes: {
+    position: 'relative',
+    alignItems: 'left',
+  },
 
 
 
