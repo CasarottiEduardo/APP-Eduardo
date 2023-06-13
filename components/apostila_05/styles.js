@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
       marginTop: 10, 
     }, 
     button: {
+        flexDirection: 'row',
       backgroundColor: '#E91E63', 
       height: 40, 
       justifyContent: 'center', 
@@ -48,6 +49,10 @@ const styles = StyleSheet.create({
       fontWeight: 'bold', 
       color: '#C51162',     
     }, 
+
+    botoes: {
+        flexDirection: 'row',
+    }
   });
   
   export default styles;

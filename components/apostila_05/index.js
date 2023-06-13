@@ -54,7 +54,7 @@ export default function Index() {
 			<TextInput style={styles.txtEntrada}
 				editable={false}
 				value={total} />
-
+            <View>
 			<TouchableOpacity style={styles.button} onPress={() => Soma()}>
 				<Text style={styles.textButton}> + </Text>
 			</TouchableOpacity>
@@ -70,6 +70,7 @@ export default function Index() {
             <TouchableOpacity style={styles.button} onPress={() => Multipicar()}>
 				<Text style={styles.textButton}> + </Text>
 			</TouchableOpacity>
+            </View>
 		</View>
 	);
 }
