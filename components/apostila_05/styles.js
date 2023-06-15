@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
       marginTop: 10, 
     }, 
     button: {
-        flexDirection: 'row',
+      lexDirection: 'row',
       backgroundColor: '#E91E63', 
       height: 40, 
       justifyContent: 'center', 
@@ -47,12 +47,16 @@ const styles = StyleSheet.create({
     textLabel: {
       fontSize: 16, 
       fontWeight: 'bold', 
-      color: '#C51162',     
+      color: '#C51162',  
+         
     }, 
-
-    botoes: {
-        flexDirection: 'row',
+    botes: {
+      flexDirection: 'row',
+      justifyContent: 'center',
+      padding: 50,
     }
+
+   
   });
   
   export default styles;
