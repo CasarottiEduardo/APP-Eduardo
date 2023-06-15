@@ -3,14 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 
 // import Apostila03 from './components/apostila_03/Index';
 // import Apostila03A from './components/apostila_03_avancado/Index';
-//import Apostila04 from './components/apostila_04';
-import Apostila05 from './components/apostila_05';
+import Apostila04 from './components/apostila_04';
+import Apostila05 from './components/apostila_05/index';
 import Apostila_06 from './components/apostila_06';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Apostila_06 />
+      <Apostila04 />
     </View>
   );
 }

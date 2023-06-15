@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
       color: 'lightgray',  
     }, 
     button: {
-      backgroundColor: '#89FFA5',
+      backgroundColor: 'lightgray',
     }, 
     buttonText: {
       alignSelf: 'center', 
@@ -42,6 +42,10 @@ const styles = StyleSheet.create({
       fontSize: 65, 
       padding: 15, 
     },
+    resultado: {
+      alignSelf: 'center',
+      fontFamily: 'CourierNew, monospace',
+    }
     
   });
 
