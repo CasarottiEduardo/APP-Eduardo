@@ -6,23 +6,17 @@ import { StyleSheet, Text, View } from 'react-native';
 import Apostila04 from './components/apostila_04';
 import Apostila05 from './components/apostila_05/index';
 import Apostila_06 from './components/apostila_06';
+import Apostila_8 from './components/apostila_8';
+import Header from './components/apostila_8/Header';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Apostila04 />
+      <Header />
     </View>
   );
 }
 
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Apostila04 />
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
 
 const styles = StyleSheet.create({
   container: {
